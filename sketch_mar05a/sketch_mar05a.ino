@@ -19,38 +19,57 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-  playNote(c4,500);
-  playNote(c4, 500);
-  playNote(d4, 530);
-  playNote(c4, 600);
+  playNote(c4,200);
+  delay(100);
+  playNote(c4,200);
+  delay(100);
+  playNote(d4, 450);
+  delay(100);
+  playNote(c4,330);
+  delay(100);
+  playNote(f4,380);
+  delay(100);
+  playNote(e4, 495);
+  delay(600);
+  playNote(c4, 200);
+  delay(100);
+  playNote(c4, 200);
+  delay(100);
+  playNote(d4, 450);
+  delay(100);
+  playNote(c4, 390);
+  delay(100);
+  playNote(g4, 400);
+  delay(100);
   playNote(f4, 500);
-  playNote(e4, 1000);
-  delay(500);
-  
-  playNote(c4, 500);
-  playNote(c4, 500);
-  playNote(d4, 530);
-  playNote(c4, 500);
-  playNote(g4, 500);
+  delay(400);
+  playNote(c4, 210);
+  delay(130);
+  playNote(c4, 210);
+  delay(130);
+  playNote(c5, 600);
+  delay(120);
+  playNote(a4, 550);
+  delay(120);
   playNote(f4, 500);
-  delay(500);
-
-  playNote(c4, 500);
-  playNote(c4, 500);
-  playNote(c5, 500);
-  playNote(a4, 500);
-  playNote(f4, 500);
+  delay(120);
   playNote(e4, 500);
-  playNote(d4, 1000);
-
-  playNote(a4SH, 500);
-  playNote(a4SH, 500);
-  playNote(a4, 500);
-  playNote(f4, 500);
+  delay(120);
+  playNote(d4, 500);
+  delay(300);
+  playNote(a4SH, 400);
+  delay(100);
+  playNote(a4SH, 400);
+  delay(100);
+  playNote(a4, 620);
+  delay(200);
+  playNote(f4, 400);
+  delay(200);
   playNote(g4, 500);
-  playNote(f4, 500);
-
+  delay(100);
+  playNote(f4, 800);
   delay(1000);
+  
 }
 
 void playNote(int note, int duration){
