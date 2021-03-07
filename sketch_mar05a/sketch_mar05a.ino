@@ -19,6 +19,31 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
+  firstSection();
+  delay(600);
+  
+  secondSection();
+  delay(400);
+  
+  thirdSection();
+  delay(300);
+  
+  fourthSection();
+  delay(1000);
+  
+}
+
+void playNote(int note, int duration){
+  //play a note on a buzzer
+  tone(buzzer, note, duration);
+
+  delay(duration);
+  //stop playing a note on a buzzer
+  noTone(buzzer);
+}
+
+//playing the first section
+void firstSection(){
   playNote(c4,200);
   delay(100);
   playNote(c4,200);
@@ -30,7 +55,10 @@ void loop() {
   playNote(f4,380);
   delay(100);
   playNote(e4, 495);
-  delay(600);
+}
+
+//playing the second section
+void secondSection(){
   playNote(c4, 200);
   delay(100);
   playNote(c4, 200);
@@ -42,7 +70,10 @@ void loop() {
   playNote(g4, 400);
   delay(100);
   playNote(f4, 500);
-  delay(400);
+}
+
+//playing the third section
+void thirdSection(){
   playNote(c4, 210);
   delay(130);
   playNote(c4, 210);
@@ -56,7 +87,10 @@ void loop() {
   playNote(e4, 500);
   delay(120);
   playNote(d4, 500);
-  delay(300);
+}
+
+//playing the fourth section
+void fourthSection(){
   playNote(a4SH, 400);
   delay(100);
   playNote(a4SH, 400);
@@ -68,15 +102,4 @@ void loop() {
   playNote(g4, 500);
   delay(100);
   playNote(f4, 800);
-  delay(1000);
-  
-}
-
-void playNote(int note, int duration){
-  //play a note on a buzzer
-  tone(buzzer, note, duration);
-
-  delay(duration);
-  //stop playing a note on a buzzer
-  noTone(buzzer);
 }
