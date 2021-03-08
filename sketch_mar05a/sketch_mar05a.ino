@@ -19,16 +19,19 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
+  //playing the first section
   firstSection();
   delay(600);
 
   //playing the second section
   secondSection();
   delay(400);
-  
+
+  //playing the third section
   thirdSection();
   delay(300);
-  
+
+  //playing the fourth section
   fourthSection();
   delay(1000);
   
