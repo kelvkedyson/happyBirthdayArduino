@@ -21,7 +21,8 @@ void loop() {
   // put your main code here, to run repeatedly:
   firstSection();
   delay(600);
-  
+
+  //playing the second section
   secondSection();
   delay(400);
   
