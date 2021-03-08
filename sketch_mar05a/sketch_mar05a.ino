@@ -2,11 +2,11 @@
  const float c4 = 261.63;
  const float d4 = 293.67;
  const float f4 = 349.23;
- const float e4 = 329.63;
- const float g4 = 392.00;
- const float c5 = 523.25;
- const float a4 = 440.00;
- const float a4SH = 466.16; 
+ const float e4 = 329.63; //this is the e after major c
+ const float g4 = 392.00; //this is the g after major c
+ const float c5 = 523.25; //this is the c after major c
+ const float a4 = 440.00; //this is the a note
+ const float a4SH = 466.16; //this is the a#
 
 
 const int buzzer = 8;
