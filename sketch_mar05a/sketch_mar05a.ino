@@ -9,11 +9,11 @@
  const float a4SH = 466.16; //this is the a#
 
 
-const int buzzer = 8;
+const int buzzer = 8; //buzzer as a speaker
 
 void setup() {
   // put your setup code here, to run once:
-  pinMode(buzzer, OUTPUT);
+  pinMode(buzzer, OUTPUT); //defining the buzzer as the output pin
 
 }
 
