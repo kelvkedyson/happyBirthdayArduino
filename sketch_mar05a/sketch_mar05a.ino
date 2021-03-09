@@ -37,11 +37,13 @@ void loop() {
   
 }
 
+//function to play a note in a certain duration
 void playNote(int note, int duration){
   //play a note on a buzzer
   tone(buzzer, note, duration);
 
   delay(duration);
+  
   //stop playing a note on a buzzer
   noTone(buzzer);
 }
